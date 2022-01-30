@@ -1,0 +1,78 @@
+body
+{
+    margin: 0px;
+    background-image: linear-gradient(to bottom,white,#c8c8ca);
+    
+    background-size: 50% 800%;
+}
+
+.header
+{
+    background-color: #3b5998;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+}
+
+td
+{
+    padding-right: 10px;
+}
+
+.rightDiv
+{
+    float: left;
+    margin-left: 55%;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.leftDiv
+{
+    float: left;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 200px;
+    max-width: 500px;
+}
+
+#formInput
+{
+    margin-top: 20px;
+}
+
+.inputs
+{
+    height: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-style: groove;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-inline-start: 10px;
+}
+
+::placeholder
+{
+    color: rgb(167,167,167);
+}
+
+#submitbtn
+{
+    width: 180px;
+    height: 35px;
+    font-size: 17px;
+    font-family: helvetica;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    background: linear-gradient(rgb(59,134,59),rgb(24,99,24));
+}
+
+input[type="radio"] + label
+{
+    font-family: helvetica;
+    font-size: 16px;
+    color: #292727;
+    font-weight: bold;
+}
